@@ -1,3 +1,5 @@
+/*Common*/
+
 .title{
     font-size: 25px;
     font-weight: 700;
@@ -7,6 +9,59 @@
     font-size: 18px;
     font-weight: 400;
 }
+
+/*Home*/
+
+.hm_flex_parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.hm_bg{
+    background-image: url(../assets/hm_bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100%;
+    min-width: 100%;
+    border-radius: 12px;
+}
+
+/*Socihumanitarian*/
+
+.sh_flex_parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.sh_bg{
+    background-image: url(../assets/camps.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100%;
+    min-width: 100%;
+    border-radius: 12px;
+}
+
+.sh_flex_item{
+    border-radius: 12px;
+    opacity: 0.9;
+    margin: 2rem;
+    background-color: #fcfcfc;
+}
+
+.sh_flex_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*About_us*/
 
 .abus_flex_parent{
     display: flex;
@@ -80,6 +135,8 @@ img{
     height: 100%;
     border-radius: 12px;
 }
+
+/*Contact_us*/
 
 .contus_parent{
     display: flex;

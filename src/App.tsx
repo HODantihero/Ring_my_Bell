@@ -19,6 +19,7 @@ import {
   HouseOutlined,
   ContactSupportOutlined,
   SummarizeOutlined,
+  MedicalServicesOutlined,
  } from '@mui/icons-material';
 
 import dataProvider from "@pankod/refine-simple-rest";
@@ -34,7 +35,9 @@ import {
   Home,
   About_us,
   Contact_us,
+  Sociohumanitarian,
 } from "pages";
+import home from "pages/home";
 
 const axiosInstance = axios.create();
 axiosInstance.interceptors.request.use((request: AxiosRequestConfig) => {
@@ -116,12 +119,18 @@ function App() {
             {
               name: "Home",
               options: { label: 'Home'},
-              list: MuiInferencer,
+              list: home,
               icon: <HouseOutlined/>
               //edit: MuiInferencer,
               //show: MuiInferencer,
               //create: MuiInferencer,
               //canDelete: true,
+            },
+            {
+              name : "Sociohumanitarian",
+              options: {label: 'Sociohumanitarian'},
+              list: Sociohumanitarian,
+              icon: <MedicalServicesOutlined/>
             },
             {
               name: "About_us",

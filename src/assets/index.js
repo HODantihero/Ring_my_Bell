@@ -5,6 +5,8 @@ import ed_pp from './ed_pp.jpg';
 import th_ed from './th_ed.jpg';
 import vdc from './vdc.jpg';
 import contus_bg from './contus_bg.png';
+import table from './table.png';
+import hm_bg from './hm_bg.jpeg'
 //import yariga from './yariga.svg';
 
 export {
@@ -15,5 +17,7 @@ export {
   th_ed,
   vdc,
   contus_bg,
+  table,
+  hm_bg,
   //yariga,
 };

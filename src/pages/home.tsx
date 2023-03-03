@@ -2,7 +2,9 @@ import React from 'react'
 
 const home = () => {
   return (
-    <div>home</div>
+    <div className='hm_flex_parent hm_bg'>
+
+    </div>
   )
 }
 
